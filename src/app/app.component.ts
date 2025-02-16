@@ -10,8 +10,9 @@ import{ContentComponent}from './content/content.component';
   template:`
    <div class ="container">
   <app-header></app-header >
-  <app-footer></app-footer>
   <app-content></app-content>
+  <app-footer></app-footer>
+
 </div>
 `,
   styleUrl: './app.component.css'
