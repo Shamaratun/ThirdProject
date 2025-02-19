@@ -1,8 +1,10 @@
-import { Component } from '@angular/core';
+
+import { Component, OnInit } from '@angular/core';
 
 import{HeaderComponent} from './header/header.component';
 import {FooterComponent} from'./footer/footer.component';
 import{ContentComponent}from './content/content.component';
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-root',
   imports: [HeaderComponent,FooterComponent, ContentComponent],
@@ -17,13 +19,7 @@ import{ContentComponent}from './content/content.component';
 // `,
   styleUrl: './app.component.css'
 })
-export class AppComponent {
-Meme: any;
-deleteUser(_t17: any) {
-throw new Error('Method not implemented.');
+export class AppComponent  { 
+
 }
-editUser(_t17: any) {
-throw new Error('Method not implemented.');
-}
-  title = 'ThirdProject';
-}
+
